@@ -168,7 +168,7 @@ ul{
 }
 
 .call-title, .call-subtext{
-    color:#E5E7EB;
+    color:white;
     font-size:18px;
 }
 
@@ -181,10 +181,20 @@ ul{
     font-size:18px;
     align-self:center;
     border-radius: 8px;
-    color: #E5E7EB;
+    color: white;
     background-color: #3882F6;
-    border: 2px solid #E5E7EB;
+    border: 2px solid white;
     font-weight: 900;
     height:fit-content;
     padding:5px 25px;
+}
+
+.footer{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    min-height: 120px;
 }
