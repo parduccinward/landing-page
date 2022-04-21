@@ -29,6 +29,10 @@ body{
     background-color:#E5E7EB;
 }
 
+.section-4{
+    align-items:center;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -152,4 +156,35 @@ ul{
     align-self:flex-end;
     color:#1F2937;
     font-weight: 900;
+}
+
+.call-container{
+    display:flex;
+    flex:1;
+    justify-content:space-around;
+    padding:50px;
+    background-color:#3882F6;
+    border-radius: 8px;
+}
+
+.call-title, .call-subtext{
+    color:white;
+    font-size:18px;
+}
+
+.call-title{
+    font-weight: 800;
+    font-size:30px;
+}
+
+.call-button{
+    font-size:18px;
+    align-self:center;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    font-weight: 900;
+    height:fit-content;
+    padding:5px 25px;
 }
