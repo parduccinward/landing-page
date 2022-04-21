@@ -131,3 +131,26 @@ ul{
 .card-content{
     font-size:18px;
 }
+
+.section-3{
+    background-color:#E5E7EB;
+}
+
+.quote-container{
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+}
+
+.author{
+    align-self:flex-end;
+    color:#1F2937;
+    font-weight: 900;
+}
