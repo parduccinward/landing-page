@@ -12,7 +12,7 @@ body{
 .section-1, .section-2, .section-3, .section-4{
     padding-left: 15%;
     padding-right: 15%;
-    height:500px;
+    min-height:500px;
     display: flex;
 }
 .section-1{
