@@ -23,6 +23,9 @@ body{
 
 .section-2{
     justify-content:center;
+    padding-left: 20%;
+    padding-right: 20%;
+    min-height:600px;
 }
 
 .section-3{
@@ -53,11 +56,14 @@ body{
 .hero-subtext{
     margin-top:8px;
     margin-bottom:8px;
+    width:90%;
 }
 
 .image-rectangle{
     text-align: center;
     flex:1;
+    background-color: #6d747d;
+    padding: 100px 50px 100px 50px;
 }
 
 .hero-button{
@@ -81,6 +87,7 @@ ul{
     font-size:48px;
     font-weight: 800;
     color:#F9FAF8;
+    width:90%;
 }
 
 .header-list li, .hero-subtext, .image-rectangle {
@@ -91,7 +98,7 @@ ul{
 .header-logo{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 
@@ -116,8 +123,6 @@ ul{
     justify-content: center;
     text-align: center;
     gap: 10px;
-    height:300px;
-    width: 300px;
 }
 
 .card-figure{
@@ -137,6 +142,8 @@ ul{
 
 .card-content{
     font-size:18px;
+    align-self: center;
+    width: 90%;
 }
 
 .quote-container{
